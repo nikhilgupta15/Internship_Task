@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/12130d9869.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>LinkedIn HomePage(Internship Task)</title>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <div class="start">
+          <li>
+            <a href="#">
+              <i class="fab fa-linkedin-in" id="linkedin-icon"></i>
+            </a>
+          </li>
+          <li>
+            <input type="text" placeholder="Search" />
+          </li>
+        </div>
+        <div class="end">
+          <li>
+            <a href="#" onclick="showElement()" id="i">
+              <i class="fas fa-home"
+                ><br />
+                <p>Home</p>
+                <hr id="hr"
+              /></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-user-friends">
+                <br />
+                <p>My Network</p>
+              </i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-briefcase"
+                ><br />
+                <p>Jobs</p></i
+              >
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="far fa-comments"
+                ><br />
+                <p>Messaging</p></i
+              >
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="far fa-bell">
+                <br />
+                <p>Notifications</p>
+              </i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-user-circle">
+                <br />
+                <p>Me <i class="fas fa-sort-down"></i></p>
+              </i>
+            </a>
+          </li>
+          <li class="vertical"></li>
+          <li>
+            <a href="#">
+              <i class="fas fa-th">
+                <br />
+                <p>Work <i class="fas fa-sort-down"></i></p>
+              </i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p class="premium">Try Premium Free for 1 month</p>
+            </a>
+          </li>
+        </div>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="row">
+        <p style="margin: 5px; font-family: Arial, Helvetica, sans-serif;">
+          <span style="float: left; margin-left: 5px;">
+            <a href="#" class="anchor">
+              <strong style="font-size: medium;">Xyz</strong> </a
+            >,
+            <a href="#" class="anchor">
+              <strong style="font-size: medium;">Abc</strong>
+            </a>
+            <span style="font-size: small;"
+              >and 731 other connections follow Linkedin</span
+            ></span
+          >
+          <a href="#">
+            <i
+              class="fas fa-ellipsis-h dots"
+              style="float: right; margin-right: 5px;"
+            ></i>
+          </a>
+        </p>
+      </div>
+      <br />
+      <hr />
+      <div class="row" style="height: 20px;">
+        <a href="#">
+          <i
+            class="fab fa-linkedin-in block"
+            id="linkedin-icon"
+            style="text-align: center;"
+          ></i>
+        </a>
+        <p
+          class="block"
+          style="
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 7px;
+          "
+        >
+          <a href="#" class="anchor">
+            <span style="font-weight: bolder;">LinkedIn</span> </a
+          ><br />
+          <span
+            >12,701,398 followers <br />
+            Promoted</span
+          >
+        </p>
+        <a href="#">
+          <i
+            class="fas fa-plus"
+            style="
+              float: right;
+              color: rgb(45, 119, 181);
+              margin-top: 5px;
+              margin-right: 5px;
+              font-size: 15px;
+            "
+          >
+            <span style="font-size: larger;">Follow</span></i
+          >
+        </a>
+      </div>
+      <br />
+      <div class="row">
+        <p
+          style="
+            float: left;
+            margin-left: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+          "
+        >
+          While many industries have been hit hard by COVID-19, some are on the
+          rise. Here are the ten roles that are in demand and the skills to help
+          you land th
+          <a href="#" style="color: gray;">..see more</a>
+        </p>
+      </div>
+      <br />
+      <div>
+        <a href="#">
+          <img
+            src="https://media-exp1.licdn.com/dms/image/C5622AQH2N87sAyiz7w/feedshare-shrink_800/0?e=1596672000&v=beta&t=XfYY7UT_sfPN5i8t_YPkJNO-TK4hy1JV7k1SUnjgvr4"
+            style="width: 500px; height: 200px;"
+          />
+        </a>
+      </div>
+      <div class="row" style="display: flex;">
+        <div>
+          <a href="#" style="padding: 5px;">
+            <img src="pictures/Annotation 2020-07-04 103219.png" />
+          </a>
+        </div>
+        <div>
+          <a href="#" style="padding: 5px;">
+            <span style="font-size: smaller; color: gray;">1,195</span>
+          </a>
+        </div>
+        <div>
+          <a href="#" style="padding: 5px;">
+            <span style="font-size: smaller; color: gray;">19 comments</span>
+          </a>
+        </div>
+      </div>
+      <hr />
+      <div class="row" style="display: flex;">
+        <a href="#">
+          <i
+            class="far fa-thumbs-up"
+            style="padding: 10px; font-size: 15px; color: rgb(133, 156, 175);"
+            id="i"
+            >Like</i
+          >
+        </a>
+        <a href="#">
+          <i
+            class="far fa-comment-alt"
+            style="padding: 10px; font-size: 15px; color: rgb(133, 156, 175);"
+            id="i"
+            >Comment</i
+          >
+        </a>
+        <a href="#">
+          <i
+            class="fas fa-share"
+            style="padding: 10px; font-size: 15px; color: rgb(133, 156, 175);"
+            id="i"
+            >Share</i
+          >
+        </a>
+        <a href="#">
+          <i
+            class="far fa-paper-plane"
+            style="padding: 10px; font-size: 15px; color: rgb(133, 156, 175);"
+            id="i"
+            >Send</i
+          >
+        </a>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="row" style="height: 20px;">
+        <a href="#">
+          <i
+            class="fas fa-user-circle block profile"
+            style="
+              width: 25px;
+              height: 25px;
+              padding: 7px;
+              font-size: 24px;
+              margin-left: 10px;
+            "
+          ></i>
+        </a>
+        <p
+          class="block"
+          style="
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 7px;
+            padding-top: 4px;
+          "
+        >
+          <a href="#" class="anchor"
+            ><span style="font-weight: bolder;">Kyle</span> </a
+          ><br />
+          <span
+            >Software Engineer <br />
+            2d</span
+          >
+        </p>
+        <a href="#" style="padding-top: 5px;">
+          <i
+            class="fas fa-ellipsis-h dots"
+            style="float: right; margin-right: 5px; padding: 10px;"
+          ></i>
+        </a>
+      </div>
+      <br />
+      <div class="row">
+        <p
+          style="
+            float: left;
+            margin-left: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+          "
+        >
+          Which CSS framework is good for Angular 2+ apart from Bootstrap? Any
+          suggestions??
+        </p>
+      </div>
+      <br />
+      <div class="row" style="display: flex;">
+        <div>
+          <a href="#" style="padding: 5px;">
+            <img src="pictures/Annotation 2020-07-04 103219.png" />
+          </a>
+        </div>
+        <div>
+          <a href="#" style="padding: 5px;">
+            <span style="font-size: smaller; color: gray;">12</span>
+          </a>
+        </div>
+        <div>
+          <a href="#" style="padding: 5px;">
+            <span style="font-size: smaller; color: gray;">3 comments</span>
+          </a>
+        </div>
+      </div>
+      <hr />
+      <div class="row" style="display: flex;">
+        <a href="#">
+          <i
+            class="far fa-thumbs-up"
+            style="padding: 10px; font-size: 15px; color: rgb(133, 156, 175);"
+            id="i"
+            >Like</i
+          >
+        </a>
+        <a href="#">
+          <i
+            class="far fa-comment-alt"
+            style="padding: 10px; font-size: 15px; color: rgb(133, 156, 175);"
+            id="i"
+            >Comment</i
+          >
+        </a>
+        <a href="#">
+          <i
+            class="fas fa-share"
+            style="padding: 10px; font-size: 15px; color: rgb(133, 156, 175);"
+            id="i"
+            >Share</i
+          >
+        </a>
+        <a href="#">
+          <i
+            class="far fa-paper-plane"
+            style="padding: 10px; font-size: 15px; color: rgb(133, 156, 175);"
+            id="i"
+            >Send</i
+          >
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
